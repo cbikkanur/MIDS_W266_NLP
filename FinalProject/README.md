@@ -1,1 +1,1 @@
-#### Repository for W266 Final project: Debiasing Personal Identities in Toxicity Classification
+### Repository for W266 Final Project: Debiasing Personal Identities in Toxicity Classification
