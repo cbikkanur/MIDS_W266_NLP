@@ -10,4 +10,17 @@ For this project, we used data from [Jigsaw Unintended Bias in Toxicity Classifi
 
 ## Models:
 
-### [TF-IDF](Jigsaw_TFIDF_LSTM.ipynb): In this model, we have used 
+### 1. [TF-IDF](Jigsaw_TFIDF_LSTM.ipynb): 
+In this model, we have used 
+
+
+### 2. [LSTM](Jigsaw_TFIDF_LSTM.ipynb): 
+In this model, we have used 
+
+
+### 3. [BERT Mixed](Jigsaw_BERT_Mixed.ipynb): 
+In this model, we have used 
+
+
+### 3. [BERT Naïve](Jigsaw_BERT_Naïve.ipynb): 
+In this model, we have used 
