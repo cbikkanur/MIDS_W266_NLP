@@ -32,3 +32,19 @@ In [Jigsaw_BERT_EDA.ipynb](Jigsaw_BERT_EDA.ipynb), we have performed EDA on the 
 
            
 ![alt text](BERT_Mixed_Naive_AUCs.png "BERT_Mixed and BERT_Naïve AUC comparison")
+
+## Libraries:
+
+For this project, we have used below python libraries.
+
++ numpy
++ pandas
++ matplotlib
++ scipy
++ tqdm
++ sklearn
++ nltk
++ tensorflow 
++ keras
++ torch
++ apex 
