@@ -11,16 +11,16 @@ For this project, we used data from [Jigsaw Unintended Bias in Toxicity Classifi
 ## Models:
 
 ### 1. [TF-IDF](Jigsaw_TFIDF_LSTM.ipynb): 
-In this model, we have used 
+In this model, we have used term frequency-inverse document frequency for calculating the weights of each word in the comments and then applied logistic regression to predict the comments' toxicity. 
 
 
 ### 2. [LSTM](Jigsaw_TFIDF_LSTM.ipynb): 
-In this model, we have used 
+In this model, we have used a special kind of Recurrent Neural Network known as Long Short Term Memory networks to predict the toxicity of the comments. 
 
 
 ### 3. [BERT Mixed](Jigsaw_BERT_Mixed.ipynb): 
 In this model, we have used 
 
 
-### 3. [BERT Naïve](Jigsaw_BERT_Naïve.ipynb): 
+### 4. [BERT Naïve](Jigsaw_BERT_Naïve.ipynb): 
 In this model, we have used 
