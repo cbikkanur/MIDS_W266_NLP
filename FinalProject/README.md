@@ -27,6 +27,8 @@ In this model, we used a pre-trained  base  uncased model. The model’s archite
 
 ## Results and EDA:
 
-In [Jigsaw_BERT_EDA.ipynb](Jigsaw_BERT_EDA.ipynb), we have performed EDA on the AUC results of both *BERT_Mixed* and *BERT_Naïve* models. We can see how the 
+In [Jigsaw_BERT_EDA.ipynb](Jigsaw_BERT_EDA.ipynb), we have performed EDA on the AUC results of both *BERT_Mixed* and *BERT_Naïve* models. We can see below how the models perfomed on different subgroups.
 
+
+##            BERT_Mixed                            BERT_Naïve             
 ![alt text](BERT_Mixed_Naive_AUCs.png "BERT_Mixed and BERT_Naïve AUC comparison")
