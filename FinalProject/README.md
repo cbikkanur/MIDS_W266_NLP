@@ -25,8 +25,8 @@ In this model, we used a pre-trained  base  uncased model. The model’s archite
 ### 4. [BERT Naïve](Jigsaw_BERT_Naïve.ipynb): 
 In this model, we used a pre-trained  base  uncased model. The model’s architecture consists of ElMo embeddings, 12 layers, 768 hidden states, 12 heads and  110M  parameters.  We  used the bertForSequenceClassification class of the pre-trained BERT model to fine tune the parameters for text classification. The data(comments) used for training this model does not include any personal identity subgroups. This models has never seen a comment that contains personal identites.
 
-## [Results and EDA](Jigsaw_BERT_EDA.ipynb):
+## Results and EDA:
 
-We have performed EDA on the AUC results of both *BERT_Mixed* and *BERT_Naïve* models. We can see how the 
+In [Jigsaw_BERT_EDA.ipynb](Jigsaw_BERT_EDA.ipynb), we have performed EDA on the AUC results of both *BERT_Mixed* and *BERT_Naïve* models. We can see how the 
 
-![alt text](BERT_Model1_Model2_AUCs.png "BERT_Mixed and BERT_Naïve AUC comparison")
+![alt text](BERT_Mixed_Naive_AUCs.png "BERT_Mixed and BERT_Naïve AUC comparison")
