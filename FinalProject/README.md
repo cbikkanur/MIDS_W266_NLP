@@ -15,7 +15,7 @@ In this model, we have used term frequency-inverse document frequency for calcul
 
 
 ### 2. [LSTM](Jigsaw_TFIDF_LSTM.ipynb): 
-In this model, we have used a special kind of Recurrent Neural Network known as Long Short Term Memory networks to predict the toxicity of the comments. 
+In this model, we have used a special kind of Recurrent Neural Network known as Long Short Term Memory networks to predict the toxicity of the comments. For vocabulary embeddings, we have used [GloVe](https://nlp.stanford.edu/projects/glove/) with 6 billion tokens, 400K vocaublary and 50 dimensional vectors which is trained on Wikipedia and Gigaword.
 
 
 ### 3. [BERT Mixed](Jigsaw_BERT_Mixed.ipynb): 
