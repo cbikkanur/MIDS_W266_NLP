@@ -5,7 +5,7 @@ As Machine Learning models continue to be relied upon for making automated decis
 ## Data:
 
 For this project, we used data from [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/overview) competition from Kaggle platform.
-* [Train_data](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/download/train.csv) contains 1.8 million **comments** labeled with toxicity score from 0 to 1. The data also contains columns to indicate if a comment has any peronal identity information along with other auxillary columns.
+* [Train_data](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/download/train.csv) contains 1.8 million **`comments`** labeled with toxicity score from 0 to 1. The data also contains columns to indicate if a comment has any peronal identity information along with other auxillary columns.
 * [Test_data](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/download/test.csv) contains 97.3K comments with a unique identifier for each comment. 
 
 ## Models:
@@ -30,5 +30,5 @@ In this model, we used a pre-trained  base  uncased model. The model’s archite
 In [Jigsaw_BERT_EDA.ipynb](Jigsaw_BERT_EDA.ipynb), we have performed EDA on the AUC results of both *BERT_Mixed* and *BERT_Naïve* models. We can see below how the models perfomed on different subgroups.
 
 
-##            BERT_Mixed                            BERT_Naïve             
+           
 ![alt text](BERT_Mixed_Naive_AUCs.png "BERT_Mixed and BERT_Naïve AUC comparison")
