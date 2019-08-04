@@ -2,7 +2,12 @@
 
 As Machine Learning models continue to be relied upon for making automated decisions, the issue of model bias becomes more and more prevalent. In this project, we approach training a text classification model and optimize on bias minimization by measuring not only the models performance on our dataset as a whole, but also how it performs across different subgroups. This requires measuring performance independently for different demographic subgroups and measuring bias bycomparing them to results from the rest of our data. We show how unintended bias can be detected using these metrics and how removing bias from a dataset completely can result in worse results.
 
-### Data:
+## Data:
+
 For this project, we used data from [Jigsaw Unintended Bias in Toxicity Classification](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/overview) competition from Kaggle platform.
-* [train_data](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/download/train.csv) contains 1.8 million comments labeled with toxicity score from 0 to 1. The ata also contains columns to show if a comment has any peronal identity
-* [test_data]()
+* [train_data](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/download/train.csv) contains 1.8 million comments labeled with toxicity score from 0 to 1. The data also contains columns to indicate if a comment has any peronal identity information along with other auxillary columns.
+* [test_data](https://www.kaggle.com/c/jigsaw-unintended-bias-in-toxicity-classification/download/test.csv) contains 97.3K comments with a unique identifier for each comment. 
+
+## Models:
+
+### TF-IDF:
